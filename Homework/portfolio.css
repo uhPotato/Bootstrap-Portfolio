@@ -1,0 +1,40 @@
+
+
+
+.nextRow {
+    clear: both;
+}
+
+.container {
+    color: #334;
+    /* background-color: #fff;   */
+    position: relative;
+    float: left; 
+    width: 100px;
+    height: 100px; 
+    margin-top: 15px;   
+    margin-right: 10px; 
+    /* padding: 15px; */
+    border: 1px black;
+    /* clear: right; */
+    margin-left: 5%;
+    background-color: grey;
+    text-align: center;
+    color: orangered;
+
+}
+
+/* .container {
+    position: relative;
+    text-align: center;
+    color: orangered;
+} */
+
+.bottom {
+    position: absolute;
+    bottom:5px;
+    /* text-align: center; */
+    margin: 0 auto;
+    background-color: blue;
+    width: 100%;
+}
