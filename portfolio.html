@@ -5,63 +5,82 @@
     <!-- Link to your external CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 </head> 
 <body>
 
 
 
-    <nav>
-        <ul>
-            <li class="PageName">Philip David Davies</li>
-            <li><a href=" https://uhpotato.github.io/Bootstrap-Portfolio/index.html">About</a></li>
-            <li><a class="active">Portfolio</a></li>
-            <li><a href=" https://uhpotato.github.io/Bootstrap-Portfolio/contact.html">Contact</a></li>
-            <!-- <li style="float:right"><a class="active" href="/about/">About</a></li> -->
-        </ul>
-    </nav>
+        <nav id="navbar-example2" class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand PageName">Philip David Davies</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://uhpotato.github.io/Bootstrap-Portfolio/index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://uhpotato.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="https://uhpotato.github.io/Bootstrap-Portfolio/contact.html">Contact</a>
+                  </li>
 
+                </ul>
+              </nav>
 
     <section id="full">
 
             <h1>Portfolio</h1>
-
-            <div class="container">
-                
-                    <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/56-apple-512.png" alt="First Photo" height="100" width="100" />
-                    <h3 class="bottom">
-                        Work
-                    </h3>
-            </div>
-
-            <div class="container">
-                    <h3 class="bottom">
-                        Github
-                    </h3>
-                    <img src="https://image.freepik.com/iconos-gratis/github-signo_318-42173.jpg" alt="First Photo" height="100" width="100" >
-                    
+            <div class="row justify-content-lg-left">
+                <div class="col col-lg-3">
+                    <div class="container">
+                        
+                            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/56-apple-512.png" alt="First Photo" height="100" width="100" />
+                            <h3 class="bottom">
+                                Work
+                            </h3>
+                    </div>
                 </div>
-            <div class="nextRow container">
-                    <h3 class="bottom">
-                        Background
-                    </h3>
-                    <img src="https://pre00.deviantart.net/ab83/th/pre/f/2015/178/a/0/generic_background_1_by_zacatron94-d8yxiyi.png" alt="First Photo" height="100" width="100" >        
+            
+               
+                    <div class="col col-lg-3">
+                        <div class="container">
+                                <h3 class="bottom">
+                                    Github
+                                </h3>
+                                <img src="https://image.freepik.com/iconos-gratis/github-signo_318-42173.jpg" alt="First Photo" height="100" width="100" >
+                        </div>
+                    </div>
             </div>
-
-            <div class="container">
-                    <h3 class="bottom">
-                        Coding
-                    </h3>
-                    <img src="https://depts.washington.edu/nwcenter/wp-content/uploads/2016/09/maxresdefault.jpg" alt="First Photo" height="100" width="100" >        
+            <div class="row justify-content-lg-left">
+                <div class="col col-lg-3">
+                    <div class="nextRow container">
+                            <h3 class="bottom">
+                                Background
+                            </h3>
+                            <img src="https://pre00.deviantart.net/ab83/th/pre/f/2015/178/a/0/generic_background_1_by_zacatron94-d8yxiyi.png" alt="First Photo" height="100" width="100" >        
+                    </div>
+                </div>
+                <div class="col col-lg-3">
+                    <div class="container">
+                            <h3 class="bottom">
+                                Coding
+                            </h3>
+                            <img src="https://depts.washington.edu/nwcenter/wp-content/uploads/2016/09/maxresdefault.jpg" alt="First Photo" height="100" width="100" >        
+                    </div>
+                </div>
             </div>
-
-            <div class="nextRow container">
-                    <h3 class="bottom">
-                        Education
-                    </h3>
-                    <img src="https://peopleforeducation.ca/wp-content/uploads/2017/05/PFE_Icon_Public-education.png" alt="First Photo" height="100" width="100" >        
+            <div class="row justify-content-lg-left">
+                <div class="col col-lg-3">
+                    <div class="container">
+                            <h3 class="bottom">
+                                Education
+                            </h3>
+                            <img src="https://peopleforeducation.ca/wp-content/uploads/2017/05/PFE_Icon_Public-education.png" alt="First Photo" height="100" width="100" >        
+                    </div>
+                </div>
             </div>
-
     </section>
     
     <footer>

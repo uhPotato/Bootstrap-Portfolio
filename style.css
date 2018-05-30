@@ -1,169 +1,158 @@
 
 
 
-body {
-    background-color: blue;
-    background-attachment: fixed;
-    background-image: url("https://wallpapercave.com/wp/tqyeBQZ.jpg"); 
-    height: 100%;
-}
-
-nav {
-    position: fixed;
-    right:0;
-    top:0;
-    left: 0;
-    width: 100%;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-}
-
-
-#main-wrapper {
-    box-sizing: border-box;
-    min-height: 100%;
-    padding: 0 0 100px;
-    position: relative;
-  }
-
-/* 
-.PageName{
-    background-color: orange;
-    
-} */
-
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-left: 5%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  
-h1:after {
-    content:"";
-    border-top: 3px solid blue;
-    margin: 1rem 0;
-    display: block;
-    width: 95%;
-}
-
-.PageName {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    float: left;
-    /* z-index: 1; */
-    height: 100%;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin-top: 6px;
-    margin-bottom: 4px;
-    margin-left: 14%;
-    color: white;
-    background-color: orange;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-background-color: #111;
-}
 
 
 
 
-#full {
-    overflow: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
-    margin-bottom: 30px;
-    width: 80%;
-    /* width: 960px; */
-    height: 560px;
-    background: #eee;
-  }
 
 
-  #division {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    /* background: #6ea3da; */
-  }
-  
-  .picture {
-      margin-left: 5%;
-  }
 
-  aside {
-      color: #334;
-      /* background-color: #fff;   */
-      float: left; 
-      width: 175px;
-      height: 175px;    
-      margin-right: 10px; 
-      /* padding: 15px; */
-      border: 1px black;
-      clear: right;
-      margin-left: 5%;
-  }
-  
-  footer {
-    /* position: relative; unable to get the footer to stick to the bottom*/
-    position: fixed;
-    right:0;
-    bottom:0;
-    left: 0;
-    height: 15px;
-    width: 100%;
-    clear: both;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 0px;
-    color: #333;
-    background: #ccc;
-    /* margin: 0 auto;
-    
 
-    footer{
-    position: absolute;
-    right:0;
-    bottom:0;
-    left: 0;
-    width: 100%;
-    background-color: grey;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-}
 
-    
-    */
-  }
-  span {
-      vertical-align: -webkit-baseline-middle;
-  }
+        body {
+            background-color: blue;
+            background-attachment: fixed;
+            background-image: url("https://wallpapercave.com/wp/tqyeBQZ.jpg"); 
+            height: 100%;
+        }
 
-  .active {
-      color: grey;
-  }
+        nav {
+            position: fixed;
+            right:0;
+            top:0;
+            left: 0;
+            width: 100%;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .PageName {
+            font-family: 'Georgia', Times, Times New Roman, serif;
+            float: left;
+            /* width: 20%; */
+            z-index: 1;
+            height: 100%;
+            font-size: 20px;
+            padding-top: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            margin-top: 6px;
+            margin-bottom: 4px;
+            margin-left: 14%;
+            color: white;
+            background-color: orange;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        #main-wrapper {
+            box-sizing: border-box;
+            min-height: 100%;
+            padding: 0 0 100px;
+            position: relative;
+        }
+
+
+        h1 {
+            font-family: 'Georgia', Times, Times New Roman, serif;
+            margin-left: 5%;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        
+        h1:after {
+            content:"";
+            border-top: 3px solid blue;
+            margin: 1rem 0;
+            display: block;
+            width: 95%;
+        }
+
+
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+        background-color: #111;
+        }
+
+        #full {
+            overflow: auto;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 80px;
+            margin-bottom: 30px;
+            width: 80%;
+            /* width: 960px; */
+            height: 560px;
+            background: #eee;
+        }
+
+
+        #division {
+            padding: 20px;
+            margin-bottom: 20px;
+            color: #333;
+            /* background: #6ea3da; */
+        }
+        
+        .picture {
+            margin-left: 5%;
+        }
+
+        aside {
+            color: #334;
+            /* background-color: #fff;   */
+            float: left; 
+            width: 175px;
+            height: 175px;    
+            margin-right: 10px; 
+            /* padding: 15px; */
+            border: 1px black;
+            clear: right;
+            margin-left: 5%;
+        }
+        
+        footer {
+            /* position: relative; unable to get the footer to stick to the bottom*/
+            position: fixed;
+            right:0;
+            bottom:0;
+            left: 0;
+            height: 15px;
+            width: 100%;
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 0px;
+            color: #333;
+            background: #ccc;
+            /* margin: 0 auto; */
+            
+        }
+        span {
+            vertical-align: -webkit-baseline-middle;
+        }
+
+        .active {
+            color: grey;
+        }
+
